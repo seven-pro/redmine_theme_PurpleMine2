@@ -179,8 +179,6 @@
 
   > form > input,
   > select {
-    border-color: $quick-search-border;
-
     &:focus {
       border-color: $quick-search-border-focus;
     }
@@ -204,7 +202,6 @@
       z-index: 1003;
       height: auto;
       padding-bottom: $header-padding-horizontal * .5;
-      border-color: $quick-search-dropdown-bg;
       background-color: $quick-search-dropdown-bg;
 
       &::after {
@@ -218,7 +215,6 @@
       @extend %form-field;
       @extend %fa-icon-after;
       min-width: $quick-search-width;
-      border-color: $quick-search-border;
 
       &::after {
         content: $fa-var-caret-down;
